@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navItems {
+    border: solid 5px white;
+    width: 75px;
+    margin: 0px 0px;
+    background-color: #e0e0d6;
+    padding: 0%;
+}
+
+a:visited, a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#banner {
+  border: solid rgb(153, 126, 126);
+  height: 8vh;
+  background-color: rgb(153, 126, 126);
+  font-family: "caveat", cursive;
+  font-size: xx-large;
+}
+
+/* table,
+th,
+td {
+  border: solid #f1f1ef;
+  column-width: 33px;
+  display: flex;
+} */
+
+.underselection {
+  height: 600px;
+  width: 68px;
+  margin: 0%;
+  padding: 0%;
+} 
+
+
+#maintext {
+  height: 4px; 
+  width: 80%;
+  display: flex;
+} 
+
+
+nav{
+  display: inline;
+}
+
+#lp {
+  width: 87px;
+  height: 600px;
+  display:flex;
+}
+
+body {
+  background-color: #c7c6c1;
+}
+
+
+
+h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+main {
+  display: flex;
+}
+
+.lowerpic {
+  display: flex;
+  height: 13vh;
+  margin: 80px;
+  margin-bottom: 300px;
+  padding: 13px;
+  align-items: center;
+  
+}
+
+.shoe {
+  margin-left: 22px;
+  border-radius: 15%;
+}
+
+
+
+.hoods {
+  height: 44vh;
+  margin-left: 12px;
+  border-radius: 15%;
+  margin-bottom: 300px;
+  padding: 13px;
+  align-items: center;
+}
+
+.jac {
+  height: 44vh;
+  margin-left: 12px;
+  border-radius: 15%;
+  margin-bottom: 300px;
+  padding: 13px;
+  align-items: center;
+}
+
+.cap {
+  height: 44vh;
+  margin-left: 12px;
+  border-radius: 15%;
+  margin-bottom: 100px;
+  padding: 13px;
+  align-items: center;
+}
