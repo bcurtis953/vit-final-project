@@ -11,6 +11,10 @@
     padding: 0%;
 }
 
+#header{
+  display: inline;
+}
+
 a:visited, a:link {
     text-decoration: none;
     color: black;
@@ -32,61 +36,68 @@ td {
   display: flex;
 } */
 
-.underselection {
-  height: 600px;
-  width: 68px;
-  margin: 0%;
-  padding: 0%;
-} 
-
-
 #maintext {
-  height: 4px; 
-  width: 80%;
-  display: flex;
+  height: 800px;
+  width: 400px;
+  margin: 44px;
+  padding:64px;
+  display: flex
 } 
+
+
+
 
 
 nav{
   display: inline;
+  display: flex;
+  display: table;
 }
 
-#lp {
-  width: 87px;
-  height: 600px;
-  display:flex;
-}
+
+
+
 
 body {
   background-color: #c7c6c1;
 }
 
+#lp {
+  display: flex;
+  display:inline;
+  width: 86px;
+  height: 800px;
+}
 
 
 h1 {
   font-family: "Playfair Display", serif;
   text-align: center;
+  display: flex;
+  padding: 22px;
 }
 
 main {
   display: flex;
+
+
 }
 
-.lowerpic {
-  display: flex;
-  height: 13vh;
-  margin: 80px;
-  margin-bottom: 300px;
-  padding: 13px;
-  align-items: center;
-  
-}
+
+
 
 .shoe {
   margin-left: 22px;
   border-radius: 15%;
 }
 
+.lowerpic {
+  display: flex;
+  height: 13vh;
+  margin: 80px;
+  padding: 13px;
+  align-items: center;
+}
 
 
 .hoods {
@@ -102,8 +113,8 @@ main {
   height: 44vh;
   margin-left: 12px;
   border-radius: 15%;
-  margin-bottom: 300px;
   padding: 13px;
+  margin-bottom: 300px;
   align-items: center;
 }
 
